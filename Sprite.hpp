@@ -15,7 +15,7 @@ namespace sgen
 		private:
 			GLuint texture;
 			int x, y, w, h;
-			GLfloat vertices[8];
+			GLfloat vertices[12];
 			GLfloat texcoords[12] = {0.0f, 0.0f,
 									1.0f, 0.0f,
 									1.0f, 1.0f,
