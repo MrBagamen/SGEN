@@ -4,8 +4,7 @@
 int main(int argc, char *argv[])
 {
 	sgen::Main m;
-	m.Create("ShitEngine", 800, 600);
-		
+	m.Create("ShitEngine", 800, 600);	
 	sgen::Sprite spr;
 	spr.Load("res/shit.png");
 	spr.SetPosition(0, 0);
